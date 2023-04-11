@@ -1,0 +1,13 @@
+{
+  "name": "yaz-template",
+  "version": "1.0.0",
+  "description": "A custom template for Create React App",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template"
+  ],
+  "main": "template.json",
+  "license": "MIT",
+  "dependencies": {}
+}
