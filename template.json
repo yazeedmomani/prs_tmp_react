@@ -19,13 +19,12 @@
       "web-vitals": "^2.1.4"
     },
     "scripts": {
-      "start": "npm-run-all -p watch-css start-js",
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d build",
-      "build": "npm run build-css && react-scripts build",
+      "start": "react-scripts start",
+      "build": "react-scripts build",
       "test": "react-scripts test",
       "eject": "react-scripts eject",
-      "start-js": "react-scripts start"
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
     },
     "devDependencies": {
       "gh-pages": "^4.0.0",
