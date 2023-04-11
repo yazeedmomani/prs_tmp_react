@@ -1,3 +1,4 @@
+// Global reset styles
 *,
 *::before,
 *::after {
@@ -6,38 +7,43 @@
   padding: 0;
 }
 
+// HTML element styles
 html {
-  /* Now 1 rem = 10px */
-  font-size: 62.5%;
-  scroll-behavior: smooth;
+  font-size: 62.5%; // Set 1 rem = 10px
+  scroll-behavior: smooth; // Enable smooth scrolling
 }
 
+// Body element styles
 body {
-  line-height: 1;
+  line-height: 1; // Set line height
 }
 
+// List styles
 ol,
 ul {
-  list-style: none;
+  list-style: none; // Remove default list styles
 }
 
+// Anchor link styles
 a {
-  text-decoration: none;
+  text-decoration: none; // Remove default link underline
 }
 
+// Form element styles
 input,
 button,
 textarea,
 select {
-  font: inherit;
-  color: inherit;
+  font: inherit; // Inherit font properties from parent
+  color: inherit; // Inherit color properties from parent
 }
 
+// Button styles
 button {
-  cursor: pointer;
+  cursor: pointer; // Set cursor to pointer on hover
 }
 
-/* HTML5 display-role reset for older browsers */
+// HTML5 display-role reset for older browsers
 article,
 aside,
 details,
@@ -49,14 +55,15 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+  display: block; // Ensure these elements have block display
 }
 
+// Heading styles
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-size: inherit;
+  font-size: inherit; // Set heading font sizes to inherit from parent
 }
